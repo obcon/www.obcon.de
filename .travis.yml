@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "6"
+deploy:
+  provider: s3
+  access_key_id: "test123"
+  secret_access_key: "test123"
+  bucket: "www.obcon.de"
