@@ -1,0 +1,17 @@
+{
+  "name": "www.obcon.de",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obcon/www.obcon.de.git"
+  },
+  "author": "obcon GmbH",
+  "bugs": {
+    "url": "https://github.com/obcon/www.obcon.de/issues"
+  },
+  "homepage": "http://www.obcon.de"
+}
