@@ -1,8 +1,12 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
 deploy:
   provider: s3
-  access_key_id: "test123"
-  secret_access_key: "test123"
-  bucket: "www.obcon.de"
+  access_key_id: AKIAJKYDSWK6KOKR3K4A
+  secret_access_key:
+    secure: E+sPjPQB9t4ddCK//J/MIlRkHiRaPyOMsiCoMqBaVDGNHPylwj2MRlkzl1UHrzuKztHucqdZj3HRy1pY4bfCY2ROaNnTI9yhKMj4slYkaXghUsyI6PhCrcLaCrj5U6UuVNCInKotm/nBtqNAInuCGuPbTQI9DzRy2dyl0NV0WvqqFmraArBHySk0Ob/LRjF8fzcVbR2Wk9+UIn+Ev/BG0eE51avvIBuPkqbCJocq3pPb/KwNeGzzo1q2e9BaU0tO+Hro+jCAHTE2pqtUPeI+uzWZvHLH+J6MFwTuk5bUh7JoOnrcHAK2uDodDm4VIM97DUI1C8CW4iBpvrflKq/bPSvRSewXN2i47WUIKr7K1rVMFNMcM94cSAha83IFzKyOz/0yNfvPdLtOdPTfODd//Z2bLb3BpGHo84WqS6Y5bwLqsfFkRouilRa1R/yTVYfRLaOtUU3SrnOWosdn1c6fzR19yUueE+yvzCoWA2/fZk8/dgz83E/d+je0DD7XwOTda4JJlZfPnSTuc+TSvG0FQrETNeGa0NSlmUtRBc4mbkwEsWVett0PGlLqvGLEYIAPgripETrNuLZogivCglmE8MPi9xbjmer76RZvZ64Hh5c5g6fDp1K4v75ZY9W3egjhGfQH1FO8bFWCcLasvJYJl5UORkETYhJCWyQGUPvpu40=
+  bucket: www.obcon.de
+  acl: public_read
+  on:
+    repo: obcon/www.obcon.de
