@@ -6,11 +6,13 @@
     
 
     $('.nav_obcon_imprint').click(function() {
+        location.hash = 'imprint';
         $('.obcon_about').hide();
         $('.obcon_imprint').show();
     });
 
     $('.nav_obcon_about').click(function() {
+        location.hash = '';
         $('.obcon_imprint').hide();
         $('.obcon_about').show();
     });
