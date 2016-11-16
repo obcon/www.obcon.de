@@ -13,5 +13,19 @@
 	font-size: inherit;
 }
 .brand-logo {
-  background-image: url(../obcon.png);
+  position: relative !important;
+  height: 60px;
+  min-width: 100px;
+  margin-top: 8px;
+  background-image: url(../obcon_wsc.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+}
+.brand-name {
+  margin-top: 8px;
+  color: #00abab;
+}
+
+.obcon-text {
+  color: #00abab;
 }
