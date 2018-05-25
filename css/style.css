@@ -1,4 +1,5 @@
 /* Custom Stylesheet */
+
 /**
  * Use this file to override Materialize files so you can update
  * the core Materialize files in the future
@@ -7,26 +8,53 @@
  */
 
 .icon-block {
-  padding: 0 15px;
+    padding: 0 15px;
 }
+
 .icon-block .material-icons {
-	font-size: inherit;
+    font-size: inherit;
 }
+
 .brand-logo {
-  position: relative !important;
-  height: 60px;
-  min-width: 100px;
-  margin-top: 8px;
-  background-image: url(../obcon_wsc.png);
-  background-size: 80px;
-  background-repeat: no-repeat;
+    position: relative !important;
+    height: 60px;
+    min-width: 100px;
+    margin-top: 8px;
+    background-image: url(../obcon_wsc.png);
+    background-size: 80px;
+    background-repeat: no-repeat;
 }
 
 .brand-name {
-  margin-top: 8px;
-  color: #00abab;
+    margin-top: 8px;
+    color: #00abab;
 }
 
 .obcon-text {
-  color: #00abab;
+    color: #00abab;
+}
+
+.data_privacy {
+    opacity: 0.90;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #aaaaaa;
+    z-index: 10;
+}
+
+.data_privacy_box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 11;
+}
+
+.data_privacy_info {
+    background-color: #ffffff;
+    border: 1px
 }
