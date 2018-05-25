@@ -64,7 +64,7 @@ function getCookie(cname) {
       setCookie("data_privacy", "done", 365)
     });
 
-    if (true || getCookie("data_privacy") == "") {
+    if (getCookie("data_privacy") == "") {
       var height = $('body').height()
       $('.data_privacy').height(height)
     } else {
