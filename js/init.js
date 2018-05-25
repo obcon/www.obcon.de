@@ -48,13 +48,20 @@ function getCookie(cname) {
       $('.obcon_about').hide();
     });
 
-    $('.data-privacy-aggree-button').click(function () {
+    $('.data-privacy-aggree-and-view-button').click(function () {
       location.hash = '';
       $('.data_privacy').hide();
       $('.data_privacy_box').hide();
       $('.obcon_about').hide();
       setCookie("data_privacy", "done", 365)
       $('.obcon_data_privacy').show();
+    });
+
+    $('.data-privacy-aggree-button').click(function () {
+      location.hash = '';
+      $('.data_privacy').hide();
+      $('.data_privacy_box').hide();
+      setCookie("data_privacy", "done", 365)
     });
 
     if (true || getCookie("data_privacy") == "") {
