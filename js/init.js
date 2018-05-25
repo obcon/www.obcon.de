@@ -25,7 +25,7 @@ function getCookie(cname) {
 
     $('.button-collapse').sideNav();
     $('.obcon_imprint').hide();
-
+    $('.obcon_data_privacy').hide();
 
     $('.nav_obcon_imprint').click(function () {
       location.hash = 'imprint';
@@ -66,11 +66,9 @@ function getCookie(cname) {
 
     if (getCookie("data_privacy") == "") {
       var height = $('body').height()
+      $('.data_privacy').show();
+      $('.data_privacy_box').show();
       $('.data_privacy').height(height)
-    } else {
-      $('.data_privacy').hide();
-      $('.data_privacy_box').hide();
     }
-
   }); // end of document ready
 })(jQuery); // end of jQuery name space
